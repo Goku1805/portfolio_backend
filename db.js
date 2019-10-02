@@ -5,7 +5,7 @@ var mongodb = require("mongodb");
 
 var dbConn = mongodb.MongoClient.connect(
   process.env.MONGODB_URI ||
-    "mongodb://user:password123@ds019633.mlab.com:19633/heroku_dtl69fwz"
+    "mongodb://user:password123@ds229088.mlab.com:29088/heroku_bvhpd4t4"
 );
 
 var app = express();
