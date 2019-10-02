@@ -46,4 +46,4 @@ app.post("/post-feedback", function(req, res) {
 //   res.sendFile(__dirname + "src/components/contact.js");
 // });
 
-app.listen(process.env.PORT || 80, process.env.IP || "0.0.0.0");
+app.listen(process.env.PORT || 2000, process.env.IP || "0.0.0.0");
