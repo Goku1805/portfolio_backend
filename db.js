@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(
   express.static(
-    path.resolve(__dirname, "/home/gokul/resume/src/components/contact.js")
+    path.resolve(__dirname, "../../resume/src/components/contact.js")
   )
 );
 if (process.env.NODE_ENV === "production") {
