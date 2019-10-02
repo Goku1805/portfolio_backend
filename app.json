@@ -1,0 +1,7 @@
+{
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "repository": "https://github.com/Goku1805/portfolio_backend.git",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "image": "heroku/nodejs"
+}

@@ -4,6 +4,7 @@
   "description": "Backend file for my protfolio",
   "main": "db.js",
   "scripts": {
+    "start": "node db.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,6 +14,9 @@
   "keywords": [
     "Nothing"
   ],
+  "engines": {
+    "node": "12.8.1"
+  },
   "author": "Gokul",
   "license": "ISC",
   "bugs": {
